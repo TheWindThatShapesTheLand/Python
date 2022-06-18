@@ -1,0 +1,349 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     12959,        339]
+NotebookOptionsPosition[     11721,        309]
+NotebookOutlinePosition[     12121,        325]
+CellTagsIndexPosition[     12078,        322]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.860492193713289*^9, 
+  3.86049219469736*^9}},ExpressionUUID->"67efcd30-c6e3-44ba-bb25-\
+ea0c43649344"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListLinePlot", "[", 
+  RowBox[{"ReadList", "[", 
+   RowBox[{
+   "\"\<C:\\\\Users\\\\\:041a\:043e\:043f\:0442\:0443\:0442\:0435\:0440\\\\\
+PycharmProjects\\\\MO_1\\\\Convergence_gr.txt\>\"", ",", 
+    RowBox[{"{", 
+     RowBox[{"Number", ",", "Number"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8604922454965343`*^9, 3.8604923090157166`*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"7eb24af8-a02e-4c9d-90b1-43c470329bcc"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {{{}, {}, 
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+       NCache[
+        Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[1.6], 
+      LineBox[{{0.20024228155211687`, 0.1}, {0.009852396571885302, 
+       0.0316227766016838}, {0.002570083488682151, 0.010000000000000002`}, {
+       0.0021748816698867746`, 0.00316227766016838}, {0.0003624662547475066, 
+       0.0010000000000000002`}, {0.00006538698669394938, 
+       0.000316227766016838}, {0.00006538698669383836, 
+       0.00010000000000000002`}, {2.9640400339148165`*^-6, 
+       0.0000316227766016838}, {2.9640400339148165`*^-6, 
+       0.000010000000000000003`}}]}}, 
+    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+      NCache[
+       Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[1.6]}, {
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+       NCache[
+        Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[
+      1.6]}, {}}, {
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+       NCache[
+        Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[
+      1.6]}, {}}}, {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{
+   "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0, 0.024626545369662384`}, {0, 0.1}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{3.8604922790168037`*^9, 3.8604923113001328`*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"5ccd6e25-ab6f-4b4e-a38d-d50e35cbca69"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListLinePlot", "[", 
+  RowBox[{"ReadList", "[", 
+   RowBox[{
+   "\"\<C:\\\\Users\\\\\:041a\:043e\:043f\:0442\:0443\:0442\:0435\:0440\\\\\
+PycharmProjects\\\\MO_1\\\\Convergence_tang.txt\>\"", ",", 
+    RowBox[{"{", 
+     RowBox[{"Number", ",", "Number"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.860492318162421*^9, 3.8604923263819094`*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"025dcf20-61da-4150-9979-a6d4189ca41e"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {{{}, {}, 
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+       NCache[
+        Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[1.6], 
+      LineBox[{{1.8303616068399444`, 0.1}, {0.0066203926695528326`, 
+       0.0316227766016838}, {0.000845209838773453, 0.010000000000000002`}, {
+       0.0008471298755533541, 0.00316227766016838}, {0.00020599486700906278`, 
+       0.0010000000000000002`}, {0.00005771807007726171, 
+       0.000316227766016838}, {0.000013987234257661907`, 
+       0.00010000000000000002`}, {7.916003781860415*^-6, 
+       0.0000316227766016838}, {2.4354640838497588`*^-6, 
+       0.000010000000000000003`}}]}}, 
+    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+      NCache[
+       Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[1.6]}, {
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+       NCache[
+        Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[
+      1.6]}, {}}, {
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+       NCache[
+        Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[
+      1.6]}, {}}}, {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{
+   "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0, 0.01653910766820929}, {0, 0.1}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{{3.8604923218193693`*^9, 3.860492326748603*^9}},
+ CellLabel->"Out[4]=",ExpressionUUID->"619053f2-9058-4d64-b795-90ccd58b1fac"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListLinePlot", "[", 
+  RowBox[{"ReadList", "[", 
+   RowBox[{
+   "\"\<C:\\\\Users\\\\\:041a\:043e\:043f\:0442\:0443\:0442\:0435\:0440\\\\\
+PycharmProjects\\\\MO_1\\\\Convergence_fib.txt\>\"", ",", 
+    RowBox[{"{", 
+     RowBox[{"Number", ",", "Number"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.860492331533019*^9, 3.8604923333385377`*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"1af979dc-d8f5-4d68-8230-c0fd5fc8351d"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {{{}, {}, 
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+       NCache[
+        Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[1.6], 
+      LineBox[{{0.3805821690776313, 0.1}, {0.04898131362120539, 
+       0.0316227766016838}, {0.04898131362120539, 0.010000000000000002`}, {
+       0.019902393991180656`, 0.00316227766016838}, {0.019902393991180656`, 
+       0.0010000000000000002`}, {0.006408841302751933, 
+       0.000316227766016838}, {0.0036411569666597865`, 
+       0.00010000000000000002`}, {0.0036411569666597865`, 
+       0.0000316227766016838}, {0.0012686777258531512`, 
+       0.000010000000000000003`}}]}}, 
+    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+      NCache[
+       Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[1.6]}, {
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+       NCache[
+        Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[
+      1.6]}, {}}, {
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+       NCache[
+        Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[
+      1.6]}, {}}}, {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{
+   "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0, 0.1169915486030238}, {0, 0.1}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{3.8604923336666994`*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"3328720a-21a0-49a9-bb56-5c7b7c9cc243"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListLinePlot", "[", 
+  RowBox[{"ReadList", "[", 
+   RowBox[{
+   "\"\<C:\\\\Users\\\\\:041a\:043e\:043f\:0442\:0443\:0442\:0435\:0440\\\\\
+PycharmProjects\\\\MO_1\\\\Convergence_dich.txt\>\"", ",", 
+    RowBox[{"{", 
+     RowBox[{"Number", ",", "Number"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8604925919072075`*^9, 3.860492593460168*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"d122168a-b70e-4c3a-b2fc-a20e744e6fa6"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {{{}, {}, 
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+       NCache[
+        Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[1.6], 
+      LineBox[{{0.32762176319830394`, 0.1}, {0.01612823671575858, 
+       0.0316227766016838}, {0.007309263278382105, 0.010000000000000002`}, {
+       0.0034030132793586576`, 0.00316227766016838}, {0.00047332578009107174`,
+        0.0010000000000000002`}, {0.000229185155152134, 
+       0.000316227766016838}, {0.00010711484268266513`, 
+       0.00010000000000000002`}, {0.00001556210833053573, 
+       0.0000316227766016838}, {7.326075257552134*^-6, 
+       0.000010000000000000003`}}]}}, 
+    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+      NCache[
+       Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[1.6]}, {
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+       NCache[
+        Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[
+      1.6]}, {}}, {
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+       NCache[
+        Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[
+      1.6]}, {}}}, {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{
+   "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0, 0.04029724862690065}, {0, 0.1}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{3.860492594187558*^9},
+ CellLabel->"Out[9]=",ExpressionUUID->"b97d8cf2-6483-4bbc-913d-c423e4f81984"]
+}, Open  ]]
+},
+WindowSize->{776, 872},
+WindowMargins->{{564, Automatic}, {Automatic, 54}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (March 18, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"a3cfe1f6-d684-42a9-b8cc-6c67450ee06a"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 151, 3, 28, "Input",ExpressionUUID->"67efcd30-c6e3-44ba-bb25-ea0c43649344"],
+Cell[CellGroupData[{
+Cell[734, 27, 458, 9, 82, "Input",ExpressionUUID->"7eb24af8-a02e-4c9d-90b1-43c470329bcc"],
+Cell[1195, 38, 2271, 55, 234, "Output",ExpressionUUID->"5ccd6e25-ab6f-4b4e-a38d-d50e35cbca69"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3503, 98, 458, 9, 82, "Input",ExpressionUUID->"025dcf20-61da-4150-9979-a6d4189ca41e"],
+Cell[3964, 109, 2271, 55, 241, "Output",ExpressionUUID->"619053f2-9058-4d64-b795-90ccd58b1fac"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6272, 169, 457, 9, 82, "Input",ExpressionUUID->"1af979dc-d8f5-4d68-8230-c0fd5fc8351d"],
+Cell[6732, 180, 2235, 55, 241, "Output",ExpressionUUID->"3328720a-21a0-49a9-bb56-5c7b7c9cc243"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9004, 240, 458, 9, 82, "Input",ExpressionUUID->"d122168a-b70e-4c3a-b2fc-a20e744e6fa6"],
+Cell[9465, 251, 2240, 55, 241, "Output",ExpressionUUID->"b97d8cf2-6483-4bbc-913d-c423e4f81984"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
